@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>таймер (C1.11-hw)</title>
+    <link rel='stylesheet' href='style.css'>
+  </head>
+  <body>
+    <h1 class="countdown-title">Таймер обратного отсчёта</h1>
+    <section class="countdown">
+      <div class="countdown-number">
+        <p class="minutes countdown-time">00</p>
+        <p class="countdown-text">Мин</p>
+      </div>
+      <div class="countdown-number">
+        <p class="seconds countdown-time">00</p>
+        <p class="countdown-text">Сек</p>
+      </div>
+    </section>
+
+    <div class="message">
+    </div>
+
+    <div>
+      <button class="plus">+</button>
+      <button class="minus">-</button>
+      <button class="start">запуск</button>
+
+      <button class='reload-button' onClick='window.location.reload()'>Заново</button>
+    </div>
+
+    <script src='timer.js'></script>
+  </body>
+</html>
